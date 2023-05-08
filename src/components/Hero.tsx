@@ -20,10 +20,11 @@ export default function Hero({}: Props) {
       className="min-h-[150vh] relative inset-0 md:h-screen flex flex-col space-y-8 items-center justify-center text-center 
     overflow-hidden"
     >
+      
       <BackgroundCircles />
       <img
         className="relative rounded-full h-36 w-36 mx-auto object-cover"
-        src=".\.\images\Tess.jpg" alt=""
+        src=".\.\images\Tess.jpg" alt="Hero picture"
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-purple-800 pb-2 font-bold tracking-[15px]">
@@ -48,6 +49,7 @@ export default function Hero({}: Props) {
           </Link>
         </div>
       </div>
+      
     </div>
   );
 }
