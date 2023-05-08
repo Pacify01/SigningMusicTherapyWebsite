@@ -25,7 +25,7 @@ function Header({}: Props) {
         
       ><img
       className="relative h-24 w-24 xl:h-32 xl:w-32 mx-auto object-cover z-50 opacity-0 md:opacity-100"
-      src=".\.\images\SIGNING-4.png"
+      src="https://res.cloudinary.com/ddsmswmsz/image/upload/v1683562759/SIGNING-4_kasyjg.png"
       alt=""></img>
         {/* Social Icons */}
         
