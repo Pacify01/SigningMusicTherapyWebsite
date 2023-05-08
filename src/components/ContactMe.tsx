@@ -49,7 +49,7 @@ function ContactMe({}: Props) {
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#7f6ca8] h-7 w-7 md:h-10 md:w-10 animate-pulse" />
-            <p className="text-2xl">Hello@SigningMusicTherapist.co.uk</p>
+            <p className=" text-sm md:text-2xl">Hello@SigningMusicTherapist.co.uk</p>
           </div>
         </div>
 
