@@ -16,7 +16,7 @@ export default function About({}: Props) {
         duration: 1.5,
       }}
       className="px-45 relative inset-1 mx-auto flex max-w-7xl flex-col
-      items-center justify-evenly text-center md:flex-row md:text-left xl:h-screen"
+      items-center justify-evenly text-center md:flex-row md:text-left xl:flex-row xl:h-screen"
     >
       <h3 className="absolute top-0.5 text-2xl uppercase tracking-[20px] text-purple-900">
         About
@@ -40,7 +40,7 @@ export default function About({}: Props) {
         rounded-full object-cover sm:h-32 md:h-96 md:w-64 md:rounded-lg xl:h-[450px] xl:rounded-lg"
       ></motion.img>
       <div className="space-y-8 px-1 md:px-20">
-        <h4 className="font-semibold opacity-0 text-sm md:text-5xl xl:opacity-100">
+        <h4 className="font-semibold opacity-0 text-sm md:text-2xl xl:text-5xl xl:opacity-100">
           Here is a{" "}
           <span className="underline decoration-[#6428f7]/60">little</span>{" "}
           background

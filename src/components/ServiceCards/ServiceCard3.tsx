@@ -7,12 +7,12 @@ function ServiceCard3({}: Props) {
   return (
     <article
       className="flex w-fit flex-shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg 
-    bg-[#dff7f3] p-10 opacity-80 transition-opacity 
+      bg-[rgb(248,248,223)] p-10 opacity-80 transition-opacity 
      duration-200 hover:opacity-100 md:w-[600px] xl:w-[900px]"
     >
-      <div className="px-20 md:px-28">
-      <br />
-          <br />
+      <div className="px-20 md:px-28 md:space-y-12">
+        <br />
+        <br />
         <h4 className="text-4xl font-light">
           There are openings on all available services.
         </h4>

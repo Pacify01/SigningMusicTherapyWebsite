@@ -40,6 +40,9 @@ export default function Hero({}: Props) {
           <Link href="#services">
             <button className="heroButton font-bold bg-[rgb(187,226,251)]">Services</button>
           </Link>
+          <Link href="#testimonials">
+            <button className="heroButton font-bold bg-[rgb(187,226,251)]">Testimonials</button>
+          </Link>
           <Link href="#contact">
             <button className="heroButton font-bold bg-[rgb(187,226,251)]">Contact</button>
           </Link>
