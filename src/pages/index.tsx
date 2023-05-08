@@ -16,7 +16,7 @@ const Home = () => {
     overflow-y-scroll overflow-x-hidden z-0 scroll scrollbar-thin scrollbar-track-purple-500/20 scrollbar-thumb-purple-500/40"
     >
       <Head>
-        <title>TNT Music Therapy</title>
+        <title>Signing Music Therapist</title>
       </Head>
       <Header />
 
