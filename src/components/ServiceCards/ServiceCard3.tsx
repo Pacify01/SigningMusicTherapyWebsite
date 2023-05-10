@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { TiChevronLeft,} from "react-icons/ti";
 
 type Props = {};
 
@@ -23,7 +23,8 @@ function ServiceCard3({}: Props) {
           If you have any queries, please do not hesitate to contact us. We
           would be happy to help you choose the service that suits your needs.
         </p>
-        <ul className="ml-5 list-disc space-y-4 text-lg"></ul>
+        <br></br>
+        <div className="md:opacity-0 ml-36 text-lg"><TiChevronLeft size={40}/></div>
       </div>
     </article>
   );

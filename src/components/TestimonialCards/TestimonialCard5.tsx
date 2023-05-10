@@ -1,11 +1,12 @@
 import React from "react";
+import { TiChevronLeft, TiChevronRight } from "react-icons/ti";
 
 type Props = {};
 
 function Testimonial5({}: Props) {
   return (
     <article
-    className="flex flex-col items-center space-y-7 flex-shrink-0 h-auto md:h-auto w-[590px] xl:w-[900px] 
+      className="flex flex-col items-center space-y-7 flex-shrink-0 h-auto md:h-auto w-[590px] xl:w-[900px] 
     snap-center bg-[rgb(248,248,223)] p-10 hover:opacity-100 opacity-80 
      cursor-pointer transition-opacity duration-200 overflow-hidden"
     >
@@ -17,10 +18,16 @@ function Testimonial5({}: Props) {
             alt=""
           />
           <li className="italic">
-            "My trumpet lessons are fun. Tess is helping me with my Grade 3 trumpet exam."
+            "My trumpet lessons are fun. Tess is helping me with my Grade 3
+            trumpet exam."
           </li>
           <li className="text-center">Nathan</li>
         </ul>
+        <br></br>
+        <div className="md:opacity-0 ml-36">
+          <TiChevronLeft size={40} className="absolute" />
+          <TiChevronRight size={40} className="absolute ml-8" />
+        </div>
       </div>
     </article>
   );

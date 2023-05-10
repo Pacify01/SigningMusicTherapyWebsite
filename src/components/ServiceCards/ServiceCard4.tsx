@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { TiChevronLeft, TiChevronRight } from "react-icons/ti";
 
 type Props = {};
 
@@ -16,6 +16,7 @@ function ServiceCard4({}: Props) {
     <li>Anyone who wants to learn musical skills but finds it hard to engage with traditional lessons.</li>
     <li>As a Music Therapist, I am trained to tune into each person&apos;s unique abilities, needs and responses.</li>
     <li>The lessons can help students to progress on the instrument of their choice or improve their signing</li>
+    <div className="md:opacity-0 ml-28"><TiChevronLeft size={40} className="absolute"/><TiChevronRight size={40} className="absolute ml-8"/></div>
 </ul>
       </div>
     </article>

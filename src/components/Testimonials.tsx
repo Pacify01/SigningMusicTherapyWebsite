@@ -6,10 +6,20 @@ import Testimonial3 from "./TestimonialCards/TestimonialCard3";
 import Testimonial4 from "./TestimonialCards/TestimonialCard4";
 import Testimonial5 from "./TestimonialCards/TestimonialCard5";
 import Testimonial6 from "./TestimonialCards/TestimonialCard6";
+import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 
 type Props = {};
 
 const Testimonials = (props: Props) => {
+  const slideLeftT = () => {
+    var slidert = document.getElementById("slidert");
+    slidert.scrollLeft = slidert.scrollLeft - 500;
+  };
+
+  const SliderRightT = () => {
+    var slidert = document.getElementById("slidert");
+    slidert.scrollLeft = slidert.scrollLeft + 500;
+  };
   return (
     <motion.div
       initial={{
@@ -24,11 +34,18 @@ const Testimonials = (props: Props) => {
       className="text-lft relative inset-0 mx-auto flex min-h-[150vh] max-w-full flex-col items-center
     justify-evenly overflow-hidden px-10 md:flex-row"
     >
+      {" "}
+      <FaChevronCircleLeft
+        size={50}
+        onClick={slideLeftT}
+        className="opacity-0 md:opacity-50 cursor-pointer hover:opacity-100"
+      />
       <h3 className="absolute top-80 text-2xl uppercase tracking-[20px] text-purple-800 opacity-0 md:opacity-100">
         Testimonials
       </h3>
       <div
-        className=" scrollbar-thin scrollbar-track-purple-500/20 scrollbar-thumb-purple-500/40 relative inset-0 flex max-w-2xl snap-x snap-mandatory space-x-5
+      id="slidert"
+        className=" scrollbar-none relative inset-0 flex max-w-2xl snap-x snap-mandatory space-x-5
          overflow-x-scroll overflow-y-scroll p-10 xl:overflow-y-hidden"
       >
         <Testimonial1 />
@@ -38,6 +55,11 @@ const Testimonials = (props: Props) => {
         <Testimonial5 />
         <Testimonial6 />
       </div>
+      <FaChevronCircleRight
+        size={50}
+        onClick={SliderRightT}
+        className="opacity-0 md:opacity-50 cursor-pointer hover:opacity-100"
+      />
     </motion.div>
   );
 };

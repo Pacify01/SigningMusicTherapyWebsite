@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { TiChevronLeft, TiChevronRight } from "react-icons/ti";
 
 type Props = {};
 
@@ -16,6 +16,7 @@ function ServiceCard2({}: Props) {
     <li>These sessions are designed for you and your child to have fun and learn together.</li>
     <li>Makaton Signing for Babies and Families training is a series of sessions designed to encourage the development of communication and language skills in babies and toddlers.</li>
     <li> All the sessions are fun and interactive for you and your child. You will learn approximately 100 signs and symbols using songs, games and activities.</li>
+    <div className="md:opacity-0 ml-28"><TiChevronLeft size={40} className="absolute"/><TiChevronRight size={40} className="absolute ml-8"/></div>
 </ul>
       </div>
     </article>

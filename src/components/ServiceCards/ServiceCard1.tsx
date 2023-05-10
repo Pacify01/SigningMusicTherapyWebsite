@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import {TiChevronRight } from "react-icons/ti";
 
 type Props = {};
 
@@ -15,7 +15,9 @@ function ServiceCard1({}: Props) {
 <ul className="list-disc space-y-4 ml-5 text-lg">
     <li>Sessions are highly individualised and the therapist works with the client to identify their own personal therapeutic goals and how best to achieve them.</li>
     <li>Suitable for anyone who would like to receive music therapy in their own home, or private sessions may also be arranged in residential service, day service, nursing home, care centre or school.</li>
+<div className="md:opacity-0 ml-36 text-lg"><TiChevronRight size={40}/></div>
 </ul>
+
       </div>
     </article>
   );

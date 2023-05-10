@@ -1,4 +1,5 @@
 import React from "react";
+import { TiChevronLeft, TiChevronRight } from "react-icons/ti";
 
 type Props = {};
 
@@ -23,6 +24,11 @@ function Testimonial4({}: Props) {
           </li>
           <li className="text-center">Jenny</li>
         </ul>
+        <br></br>
+        <div className="md:opacity-0 ml-36">
+          <TiChevronLeft size={40} className="absolute" />
+          <TiChevronRight size={40} className="absolute ml-8" />
+        </div>
       </div>
     </article>
   );

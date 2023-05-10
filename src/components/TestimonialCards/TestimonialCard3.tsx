@@ -1,4 +1,5 @@
 import React from "react";
+import { TiChevronLeft, TiChevronRight } from "react-icons/ti";
 
 type Props = {};
 
@@ -10,7 +11,7 @@ function Testimonial3({}: Props) {
      cursor-pointer transition-opacity duration-200 overflow-hidden"
     >
       <div className="px-20 md:px-28 ">
-        <ul className="space-y-16 text-2xl text-center">
+        <ul className="space-y-16 text-xl text-center">
           <img
             className="relative h-32 w-32 mx-auto object-cover"
             src=".\.\images\violin@2x.png"
@@ -25,6 +26,11 @@ function Testimonial3({}: Props) {
           </li>
           <li className="text-center">Sarah</li>
         </ul>
+        <br></br>
+        <div className="md:opacity-0 ml-36">
+          <TiChevronLeft size={40} className="absolute" />
+          <TiChevronRight size={40} className="absolute ml-8" />
+        </div>
       </div>
     </article>
   );
