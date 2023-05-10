@@ -61,3 +61,15 @@ const Services = (props: Props) => {
 };
 
 export default Services;
+
+
+<div
+        id="slider"
+        className=" scrollbar-none relative inset-0 flex max-w-2xl
+         snap-x snap-mandatory space-x-5 overflow-x-scroll overflow-y-scroll p-10 xl:overflow-y-hidden"
+      >
+        <ServiceCard1 />
+        <ServiceCard2 />
+        <ServiceCard4 />
+        <ServiceCard3 />
+      </div>
