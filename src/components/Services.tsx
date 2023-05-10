@@ -10,14 +10,15 @@ type Props = {};
 
 const Services = (props: Props) => {
 
-  const slideLeft = () => {
-    var slider  = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 500;
-  };
-  const SliderRight = () => {
-    var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 500;
-  };
+// const SlideLeft = () => {
+//    var slider = document.getElementById("slider");
+//   slider.scrollLeft = slider.scrollLeft - 500;
+//  };
+//  };
+//  const SliderRight = () => {
+ //   document.getElementById("slider");
+ //   scrollLeft += 500;
+ // };
  
   return (
     <motion.div
@@ -35,7 +36,7 @@ const Services = (props: Props) => {
     >
       <FaChevronCircleLeft
         size={50}
-        onClick={slideLeft}
+  //      onClick={slideLeft}
         className="opacity-0 md:opacity-50 cursor-pointer hover:opacity-100"
       />
       <h3 className="absolute top-80 text-2xl uppercase tracking-[20px] text-purple-800 opacity-0 md:opacity-100">
@@ -43,7 +44,7 @@ const Services = (props: Props) => {
       </h3>
       <div
         id="slider"
-        className=" scrollbar-none relative inset-0 flex max-w-2xl
+        className="scroll-smooth relative inset-0 flex max-w-2xl
          snap-x snap-mandatory space-x-5 overflow-x-scroll overflow-y-scroll p-10 xl:overflow-y-hidden"
       >
         <ServiceCard1 />
@@ -53,7 +54,7 @@ const Services = (props: Props) => {
       </div>
       <FaChevronCircleRight
         size={50}
-        onClick={SliderRight}
+   //     onClick={SliderRight}
         className="opacity-0 md:opacity-50 cursor-pointer hover:opacity-100"
       />
     </motion.div>
@@ -61,15 +62,3 @@ const Services = (props: Props) => {
 };
 
 export default Services;
-
-
-<div
-        id="slider"
-        className=" scrollbar-none relative inset-0 flex max-w-2xl
-         snap-x snap-mandatory space-x-5 overflow-x-scroll overflow-y-scroll p-10 xl:overflow-y-hidden"
-      >
-        <ServiceCard1 />
-        <ServiceCard2 />
-        <ServiceCard4 />
-        <ServiceCard3 />
-      </div>
