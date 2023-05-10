@@ -35,7 +35,7 @@ export default function About({}: Props) {
           opacity: 1,
         }}
         viewport={{ once: true }}
-        src="https://res.cloudinary.com/ddsmswmsz/image/upload/v1676649082/About_png2na.jpg"
+        src="https://res.cloudinary.com/ddsmswmsz/image/upload/v1683748599/Tess-About_fvpxsz.png"
         className=" mdx:mb-0 sm:w-21 xl:w-700[px] -mb-0.5 h-0 w-0 flex-shrink-0 
         rounded-full object-cover sm:h-32 md:h-96 md:w-64 md:rounded-lg xl:h-[450px] xl:rounded-lg"
       ></motion.img>
