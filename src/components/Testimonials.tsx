@@ -11,14 +11,14 @@ import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 type Props = {};
 
 const Testimonials = (props: Props) => {
-  const slideLeftT = () => {
-    var slidert = document.getElementById("slidert");
-    slidert.scrollLeft = slidert.scrollLeft - 500;
+  const SlideLeftT = () => {
+    var sliderT = document.getElementById("testimonialSlider");
+    sliderT.scrollLeft = sliderT.scrollLeft - 500;
   };
 
   const SliderRightT = () => {
-    var slidert = document.getElementById("slidert");
-    slidert.scrollLeft = slidert.scrollLeft + 500;
+    var sliderT = document.getElementById("testimonialSlider");
+    sliderT.scrollLeft = sliderT.scrollLeft + 500;
   };
   return (
     <motion.div
@@ -34,17 +34,16 @@ const Testimonials = (props: Props) => {
       className="text-lft relative inset-0 mx-auto flex min-h-[150vh] max-w-full flex-col items-center
     justify-evenly overflow-hidden px-10 md:flex-row"
     >
-      {" "}
       <FaChevronCircleLeft
         size={50}
-        onClick={slideLeftT}
+        onClick={SlideLeftT}
         className="opacity-0 md:opacity-50 cursor-pointer hover:opacity-100"
       />
       <h3 className="absolute top-80 text-2xl uppercase tracking-[20px] text-purple-800 opacity-0 md:opacity-100">
         Testimonials
       </h3>
       <div
-      id="slidert"
+        id="testimonialSlider"
         className=" scrollbar-none relative inset-0 flex max-w-2xl snap-x snap-mandatory space-x-5
          overflow-x-scroll overflow-y-scroll p-10 xl:overflow-y-hidden"
       >

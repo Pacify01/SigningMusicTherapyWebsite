@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import ServiceCard1 from "./ServiceCards/ServiceCard1";
 import ServiceCard2 from "./ServiceCards/ServiceCard2";
@@ -9,15 +9,16 @@ import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 type Props = {};
 
 const Services = (props: Props) => {
+
   const slideLeft = () => {
-    var slider = document.getElementById("slider");
+    var slider  = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft - 500;
   };
-
   const SliderRight = () => {
     var slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft + 500;
   };
+ 
   return (
     <motion.div
       initial={{
