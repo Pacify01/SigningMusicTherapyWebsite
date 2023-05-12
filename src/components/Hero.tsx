@@ -52,9 +52,13 @@ export default function Hero({}: Props) {
         <div className="flex items-center space-x-5 justify-center">
           <SocialIcon
           url="https://www.facebook.com/signingmt"
+          target="_blank"
+          rel="noreferrer"
         />
                 <SocialIcon
           url="https://www.instagram.com/signingmusictherapist"
+          target="_blank"
+          rel="noreferrer"
           />
           </div>
       </div>
