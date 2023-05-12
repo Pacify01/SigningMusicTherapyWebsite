@@ -2,7 +2,7 @@ import React from "react";
 import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
-
+import { SocialIcon } from "react-social-icons";
 type Props = {};
 
 export default function Hero({}: Props) {
@@ -48,6 +48,15 @@ export default function Hero({}: Props) {
             <button className="heroButton font-bold bg-[rgb(187,226,251)]">Contact</button>
           </Link>
         </div>
+        <br></br>
+        <div className="flex items-center space-x-5 justify-center">
+          <SocialIcon
+          url="https://www.facebook.com/signingmt"
+        />
+                <SocialIcon
+          url="https://www.instagram.com/signingmusictherapist"
+          />
+          </div>
       </div>
       
     </div>

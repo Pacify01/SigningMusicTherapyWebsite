@@ -51,11 +51,15 @@ function ContactMe({}: Props) {
             <EnvelopeIcon className="text-[#7f6ca8] h-7 w-7 md:h-10 md:w-10 animate-pulse" />
             <p className=" text-sm md:text-2xl">Hello@SigningMusicTherapist.co.uk</p>
           </div>
+          <div className="flex items-center space-x-5 justify-center">
+            <PhoneIcon className="text-[#7f6ca8] h-7 w-7 md:h-10 md:w-10 animate-pulse" />
+            <p className=" text-sm md:text-2xl">07354 935106</p>
+          </div>
         </div>
-
+<br></br>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-6 mx-auto"
+          className="flex flex-col space-y-6 mx-auto w-2/3"
         >
           <div className=" max-w-6xl flex-col flex space-x-2">
             <input
