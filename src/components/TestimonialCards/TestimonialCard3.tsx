@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowLongRight, HiArrowLongLeft } from "react-icons/Hi2";
+import { HiArrowLongRight, HiArrowLongLeft } from "react-icons/hi2";
 
 type Props = {};
 
