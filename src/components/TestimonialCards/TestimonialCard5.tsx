@@ -1,5 +1,5 @@
 import React from "react";
-import { TiChevronLeft, TiChevronRight } from "react-icons/ti";
+import { HiArrowLongRight, HiArrowLongLeft } from "react-icons/Hi2";
 
 type Props = {};
 
@@ -24,9 +24,9 @@ function Testimonial5({}: Props) {
           <li className="text-center">Nathan</li>
         </ul>
         <br></br>
-        <div className="md:opacity-0 ml-36">
-          <TiChevronLeft size={40} className="absolute" />
-          <TiChevronRight size={40} className="absolute ml-8" />
+        <div className="md:opacity-0 ml-20">
+          <HiArrowLongLeft size={100} className="absolute" />
+          <HiArrowLongRight size={100} className="absolute ml-24" />
         </div>
       </div>
     </article>

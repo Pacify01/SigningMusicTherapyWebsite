@@ -1,5 +1,5 @@
 import React from "react";
-import { TiChevronLeft,} from "react-icons/ti";
+import { HiArrowLongLeft } from "react-icons/Hi2";
 
 type Props = {};
 
@@ -24,7 +24,7 @@ function ServiceCard3({}: Props) {
           would be happy to help you choose the service that suits your needs.
         </p>
         <br></br>
-        <div className="md:opacity-0 ml-36 text-lg"><TiChevronLeft size={40}/></div>
+        <div className="md:opacity-0 ml-24 text-lg"><HiArrowLongLeft size={100}/></div>
       </div>
     </article>
   );

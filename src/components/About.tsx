@@ -45,7 +45,7 @@ export default function About({}: Props) {
           <span className="underline decoration-[#6428f7]/60">little</span>{" "}
           background
         </h4>
-        <p className="text-xs md:text-base ">
+        <p className="text-sm md:text-base ">
           Tess has over 12 years experience as a Music Teacher, teaching piano,
           trumpet and cello. In 2016, she became a HCPC-registered Music
           Therapist and member of the British Association of Music Therapy.
@@ -64,13 +64,6 @@ export default function About({}: Props) {
           Over the last couple of years, Tess has studied to become a licensed
           Makaton Tutor. She is very passionate about the use of Makaton and
           knows how important communication is, especially in early childhood.
-          <br />
-          <br />
-          Makaton is a unique language programme that uses symbols, signs and
-          speech to enable people to communicate. It supports the development of
-          essential communication skills such as attention and listening,
-          comprehension, memory, recall and organisation of language and
-          expression.
           <br />
           <br />
           Tess offers a range of Music Therapy services, Makaton classes and
