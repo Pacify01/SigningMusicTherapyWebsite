@@ -23,7 +23,7 @@ function ContactMe({}: Props) {
       className="flex flex-col min-h-[109vh] relative inset-0  text-center md:text-left md:flex-row 
        px-10 justify-evenly mx-auto items-center sm:text-left"
     >
-      <h3 className="absolute top-1 uppercase tracking-[20px] text-purple-900 text-2xl">
+      <h3 className="absolute top-1 uppercase tracking-[20px] text-purple-900 text-2xl opacity-0 md:opacity-100">
         Contact
       </h3>
 

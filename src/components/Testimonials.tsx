@@ -34,7 +34,6 @@ type Props = {};
         Testimonials
       </h3>
       <div
-        id="testimonialSlider"
         className="scrollbar scrollbar-track-rounded-md scrollbar-track-purple-600 scrollbar-thumb-blue-300 scroll-smooth relative inset-0 flex max-w-2xl snap-x snap-mandatory space-x-5
          overflow-x-scroll overflow-y-scroll p-10 xl:overflow-y-hidden"
       >

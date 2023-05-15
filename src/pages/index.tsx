@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div
       className=" bg-[rgb(248,248,223)] text-purple-800 fixed inset-0 snap-center w-full snap-y snap-mandatory
-    overflow-y-scroll overflow-x-hidden z-0 scroll scrollbar scrollbar-track-purple-500/20 scrollbar-thumb-purple-500/40"
+    overflow-y-scroll overflow-x-hidden z-0 scroll scrollbar scrollbar-none md:scrollbar-track-purple-500/20 md:scrollbar-thumb-purple-500/40"
     >
       <Head>
         <title>Signing Music Therapist</title>
@@ -32,7 +32,7 @@ const Home = () => {
         <Services />
       </section>
 
-      <section id="testimonials" className="snap-end">
+      <section id="testimonials" className="snap-center">
         <Testimonials />
       </section>
 
